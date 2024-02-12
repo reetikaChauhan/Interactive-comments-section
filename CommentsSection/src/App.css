@@ -1,0 +1,82 @@
+body{
+  background-color:hsl(223, 19%, 93%);
+}
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+ 
+}
+.comment-section{
+  max-width: 1440px;
+  min-width: 375px;
+  position: relative;
+}
+
+.comment{
+  background-color: hsl(0, 0%, 100%);
+  font-family: 'Rubik' sans-serif;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 25px;
+  padding:5px;
+  width:50vw;
+  gap:5px;
+}
+.plusminus{
+  margin:8px;
+  padding: 18px;
+}
+
+.pm{
+  background-color:hsl(223, 19%, 93%);
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 36px;
+}
+
+.post-block{
+  background-color:  hsl(0, 0%, 100%);
+  width: 100%;
+  margin:8px;
+}
+.user{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.user > img{
+  margin: 8px
+}
+.user > h5{
+  margin: 4px 8px 4px 0;
+}
+.user > p{
+  margin: 8px;
+}
+.user > button{
+  background-color: hsl(0, 0%, 100%); 
+  color: hsl(212, 24%, 26%);
+  margin-left: auto;
+}
+.user > svg{
+  margin-top: 33px;
+}
+.postcontent > p{
+  color: hsl(211, 10%, 45%);
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  text-align: start;
+}
+.hide{
+  display: none;
+}
+.reply-section{
+  width: 80%;
+  margin-right: auto;
+  margin-left: 30px;
+}
